@@ -111,11 +111,11 @@ class ContradictionAgent:
                     position_a="Battery storage lowers feeder stress through active regulation.",
                     source_a_paper=p1.paper_name,
                     source_a_page=p1.page_number,
-                    source_a_quote=p1.text[:120],
+                    source_a_quote=p1.text[:250],
                     position_b="Uncoordinated battery storage exacerbates peak ramp stress on rural feeders.",
                     source_b_paper=p3.paper_name,
                     source_b_page=p3.page_number,
-                    source_b_quote=p3.text[:120],
+                    source_b_quote=p3.text[:250],
                     explanation_of_divergence="Differences in feeder impedance (R/X ratio) between urban and rural circuits, and coordinated MPC vs uncoordinated charging algorithms.",
                 )
             ]
